@@ -1,0 +1,175 @@
+*{
+    /* padding: 0;
+    margin: 0;
+    font-family: sans-serif; */
+}
+body {
+    background: url(preview.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     width: 1080px;
+}
+.A{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.medsos ul li{
+    display: inline-block;
+    color: black;
+    margin-right: 20px;
+}
+.logo{
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.animasi-text{
+    color: black;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 0 40px;
+    height: 75px;
+    overflow: hidden;
+}
+.line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+}
+.line:first-child{
+    animation: anim 12s infinite;
+}
+.judul{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    font-family: monospace;
+}
+.gambar{
+    text-align: center;
+}
+.u-gambar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.perkenalan{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.contact{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.table{
+    text-align: center;
+}
+.sekolah{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.kegiatan{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.isi{
+    display: grid;
+    place-items: center;
+}
+.prestasi{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.skill{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.pendidikan{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.insp{
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.ul{
+    margin: auto;
+    /* background-color: rgba(0, 0, 0, 0.288); */
+}
+.bg-loader{
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-loader .loader{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black; 
+    animation: puterin .5s linear infinite;
+}
+footer{
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}        
+/* khusus keyframes */
+@keyframes puterin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* tampilan layar hp */
+@media(min-wwidth:321px) and (max-widht: 425px){
+
+}
+/* animasi font */
+@keyframes anim{
+    0%{
+        margin-top: 0;
+    }
+    16%{
+        margin-top: -60px;
+    }
+    33%{
+        margin-top: -120px;
+    }
+    50%{
+        margin-top: -150px;
+    }
+    66%{
+        margin-top: -120px;
+    }
+    82%{
+        margin-top: -60px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
